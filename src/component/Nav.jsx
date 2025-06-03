@@ -8,9 +8,12 @@ function Nav() {
     <div className='h-15 bg-gray-900 flex items-center w-full sm:px-5 '>
 <div className='w-full flex sm:gap-5 items-center justify-between'>
     <div>
-    <img 
+        <Link
+        to = "/"
+        ><img 
     className='sm:w-20 w-15'
-    src="/AmazonLogo.png" alt="" />
+    src="/AmazonLogo.png" alt="" /></Link>
+    
   </div>
   <div>
       <input 
