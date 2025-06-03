@@ -13,7 +13,7 @@ function Register() {
 
 
     try {
-      if (!fullName.tirm() === !email.tirm() === !password.tirm()) {
+      if (!fullName.trim() === !email.trim() === !password.trim()) {
         Swal.fire({
           icon: "error",
           title: "Oops...",
