@@ -19,14 +19,14 @@ function LogIn() {
 
       Swal.fire({
         icon: "success",
-        text: "Registeration successfuly ",
+        text: "Log In successfuly ",
       }).then(navigate("/"));
 
     } catch {
       Swal.fire({
         icon: "error",
         title: "Oops...",
-        text: "Registeration failure ",
+        text: "Log In failure ",
       });
       return;
     }
@@ -60,7 +60,7 @@ function LogIn() {
             onClick={LoginHandle}
             className="bg-yellow-300 rounded-2xl hover:bg-yellow-400 p-1 cursor-pointer"
           >
-            Continue
+            Log In
           </button>
           <div className="flex gap-1">
             <p>You Not Have An Account?</p>

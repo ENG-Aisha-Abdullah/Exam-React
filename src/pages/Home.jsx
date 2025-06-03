@@ -15,12 +15,12 @@ const [prodect, setProdect] = useState([])
     const prodect = (()=> {
    map.setProdect();
     })
-  }, []);
+  }, [prodect.title]);
 
   return (
     <div>
 <div className='text-black'>
-
+{prodect}
 </div>
     </div>
   )
