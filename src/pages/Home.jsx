@@ -12,15 +12,15 @@ const [prodect, setProdect] = useState([])
   .then(data => console.log(data));
 
 
-//     const prodect = (()=> {
-//    map.setProdect();
-//     })
+    const prodect = (()=> {
+   map.setProdect();
+    })
   }, []);
 
   return (
-    <div key={id}>
+    <div>
 <div className='text-black'>
-{prodect.title}
+
 </div>
     </div>
   )
